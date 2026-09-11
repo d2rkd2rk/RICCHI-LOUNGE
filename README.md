@@ -14,7 +14,7 @@ A polished static website for RICCHI LOUNGE, Damanhour.
 - No delivery option is advertised or collected by the site.
 
 ## Important image note
-The public menu source exposes the dish names/prices but not the individual dish image files in a reusable way. The site therefore uses real food photography by food family as a polished initial presentation. These are **illustrative stock photos, not claimed to be RICCHI's own dish photography**. For a production launch, replace each item's `img` in `menu.json` with the restaurant's own dish photo URL/file.
+Each menu item now has its own web-food image query, so the cards no longer reuse one generic image. These are illustrative web food photos, not claimed to be Ricchi's own photography. For the final official site, replacing them with Ricchi's actual dish photos is recommended.
 
 ## Menu source
 The initial menu/prices were transcribed from the public RICCHI LOUNGE Talabat menu and should be rechecked by the restaurant before launch because prices/menu availability can change.

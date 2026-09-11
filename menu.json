@@ -4,853 +4,853 @@
     "name": "Mac and Cheese",
     "desc": "Crescent pasta, crispy chicken, white sauce, cheddar, parmesan & mozzarella.",
     "price": 255,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/macaroni,cheese,pasta?lock=1"
   },
   {
     "category": "Pasta",
     "name": "Fettuccine Alfredo Pasta",
     "desc": "Creamy Alfredo sauce with grilled chicken.",
     "price": 245,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,fettuccine,alfredo,pasta?lock=2"
   },
   {
     "category": "Pasta",
     "name": "Penne Pasta with Shrimp",
     "desc": "Penne, shrimp, white sauce, dill & parmesan mix.",
     "price": 295,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/shrimp,penne,pasta?lock=3"
   },
   {
     "category": "Pasta",
     "name": "Pasta Pesto Chicken",
     "desc": "Penne, chicken, white sauce, pesto & parmesan.",
     "price": 245,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pesto,chicken,pasta?lock=4"
   },
   {
     "category": "Pasta",
     "name": "Arrabiata",
     "desc": "Penne with spicy red sauce & bell peppers.",
     "price": 210,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pasta?lock=5"
   },
   {
     "category": "Pasta",
     "name": "Spaghetti Bolognese",
     "desc": "Spaghetti with minced meat, red sauce & parmesan.",
     "price": 220,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/spaghetti,bolognese,pasta?lock=6"
   },
   {
     "category": "Pasta",
     "name": "Mix Cheese Pasta",
     "desc": "Creamy pasta blended with a selection of cheeses.",
     "price": 190,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/cheese,pasta?lock=7"
   },
   {
     "category": "Pasta",
     "name": "Sausage Pasta",
     "desc": "Pasta with oriental sausage, mozzarella & special sauce.",
     "price": 225,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/sausage,pasta?lock=8"
   },
   {
     "category": "Pasta",
     "name": "Negresco",
     "desc": "Baked penne with chicken & rich béchamel sauce.",
     "price": 245,
-    "img": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,bechamel,pasta?lock=9"
   },
   {
     "category": "Breakfast",
     "name": "Continental",
     "desc": "Croissant, Danish, toast, butter, honey, jam + fresh orange juice or tea.",
     "price": 185,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=10"
   },
   {
     "category": "Breakfast",
     "name": "Gourmia",
     "desc": "Omelette, toasted bread, yogurt, honey, jam + fresh orange juice.",
     "price": 155,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=11"
   },
   {
     "category": "Breakfast",
     "name": "Sandwich Club",
     "desc": "Grilled breast, beef bacon, cheddar, omelette, potatoes, lettuce & mayo + juice.",
     "price": 215,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=12"
   },
   {
     "category": "Breakfast",
     "name": "House Mix",
     "desc": "Smoked turkey, beef bacon, feta & cheddar mix, green salad, olives + juice.",
     "price": 170,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=13"
   },
   {
     "category": "Breakfast",
     "name": "Florence Egg",
     "desc": "French eggs, pepperoni, potatoes, white cheese, salad & olives + toast.",
     "price": 135,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=14"
   },
   {
     "category": "Breakfast",
     "name": "Omelette",
     "desc": "Omelette, mushrooms, vegetables, olives + toast and fresh orange juice.",
     "price": 130,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=15"
   },
   {
     "category": "Breakfast",
     "name": "Tortella Mix Cheese",
     "desc": "Signature tortilla breakfast with beef bacon, cheeses, potatoes, salad, olives & juice.",
     "price": 165,
-    "img": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/breakfast,eggs,croissant?lock=16"
   },
   {
     "category": "Salad",
     "name": "Italian Salad",
     "desc": "Botavia & iceberg, parmesan, radish, tomato, cucumber, onion, olives & thyme.",
     "price": 95,
-    "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/italian,salad?lock=17"
   },
   {
     "category": "Salad",
     "name": "Greek Salad",
     "desc": "White & feta cheese, capers, lettuce, cherry tomato, peppers, cucumber & olives.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/greek,salad,feta?lock=18"
   },
   {
     "category": "Salad",
     "name": "Chicken Caesar Salad",
     "desc": "Grilled chicken, parmesan, lettuce, cherry tomato, Caesar dressing & croutons.",
     "price": 185,
-    "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,caesar,salad?lock=19"
   },
   {
     "category": "Salad",
     "name": "Tuna Salad",
     "desc": "Tuna, parmesan, lettuce, arugula, peppers, onions & olives.",
     "price": 210,
-    "img": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/tuna,salad?lock=20"
   },
   {
     "category": "Appetizers",
     "name": "French Fries",
     "desc": "Crispy fried potato sticks.",
     "price": 60,
-    "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/french,fries?lock=21"
   },
   {
     "category": "Appetizers",
     "name": "Cheese French Fries",
     "desc": "French fries with creamy cheese sauce.",
     "price": 80,
-    "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/cheese,fries?lock=22"
   },
   {
     "category": "Appetizers",
     "name": "Mozzarella Sticks",
     "desc": "Fried mozzarella sticks with dipping sauce.",
     "price": 105,
-    "img": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mozzarella,sticks?lock=23"
   },
   {
     "category": "Appetizers",
     "name": "Chicken Strips",
     "desc": "Crispy breaded chicken strips.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,strips?lock=24"
   },
   {
     "category": "Appetizers",
     "name": "Texas Dip",
     "desc": "Fries, bolognese, jalapeños, cheddar, Doritos & Texas sauce.",
     "price": 160,
-    "img": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/appetizer,food?lock=25"
   },
   {
     "category": "Sandwich",
     "name": "Burger Classic",
     "desc": "Beef burger, tomato & lettuce with fries and pickles.",
     "price": 165,
-    "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/beef,burger?lock=26"
   },
   {
     "category": "Sandwich",
     "name": "Crispy Chicken Burger",
     "desc": "Crispy chicken, tomato, lettuce, smoked turkey, ranch & cheddar.",
     "price": 195,
-    "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/crispy,chicken,burger?lock=27"
   },
   {
     "category": "Sandwich",
     "name": "Burger Cheese",
     "desc": "Beef burger, tomato, lettuce, pickles, American cheese, Texas & cheddar sauce.",
     "price": 200,
-    "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/cheeseburger?lock=28"
   },
   {
     "category": "Sandwich",
     "name": "Fried Shrimp",
     "desc": "Shrimp, tartar sauce, lettuce & coleslaw in Vienna bread with fries.",
     "price": 230,
-    "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/fried,shrimp,sandwich?lock=29"
   },
   {
     "category": "Sandwich",
     "name": "Mac Royal",
     "desc": "Chicken Cordon Bleu in Vienna bread with fries & pickles.",
     "price": 205,
-    "img": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,sandwich?lock=30"
   },
   {
     "category": "Kids Meal",
     "name": "Super Kids",
     "desc": "Oven-baked pasta, minced meat, mozzarella, potatoes & cheddar sauce.",
     "price": 155,
-    "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/kids,meal,pasta?lock=31"
   },
   {
     "category": "Kids Meal",
     "name": "Nuggets Box",
     "desc": "Nuggets, cheddar sauce, fries & orange juice.",
     "price": 145,
-    "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/kids,meal,pasta?lock=32"
   },
   {
     "category": "Kids Meal",
     "name": "Happy Meal",
     "desc": "Mac and cheese, crispy chicken & cheddar sauce.",
     "price": 140,
-    "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/kids,meal,pasta?lock=33"
   },
   {
     "category": "Bakery",
     "name": "Plain Croissant",
     "desc": "Flaky, buttery pastry.",
     "price": 65,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=34"
   },
   {
     "category": "Bakery",
     "name": "Feta & Olives Puff Pastry",
     "desc": "Savory puff pastry filled with feta and olives.",
     "price": 70,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=35"
   },
   {
     "category": "Bakery",
     "name": "Cream Cheese Croissant",
     "desc": "Croissant filled with soft cream cheese.",
     "price": 80,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=36"
   },
   {
     "category": "Bakery",
     "name": "Emmental Cheddar Croissant",
     "desc": "Croissant with Emmental and Cheddar cheeses.",
     "price": 90,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=37"
   },
   {
     "category": "Bakery",
     "name": "Pastrami Cheddar Croissant",
     "desc": "Croissant filled with pastrami and melted cheddar.",
     "price": 95,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=38"
   },
   {
     "category": "Bakery",
     "name": "Nutella Croissant",
     "desc": "Croissant filled with chocolate-hazelnut spread.",
     "price": 90,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=39"
   },
   {
     "category": "Bakery",
     "name": "Oreo Croissant",
     "desc": "Croissant filled with Oreo pieces and cream.",
     "price": 90,
-    "img": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/croissant,pastry?lock=40"
   },
   {
     "category": "Dessert",
     "name": "Cheese Cake",
     "desc": "Creamy cheesecake on a biscuit crust.",
     "price": 105,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/cheesecake,dessert?lock=41"
   },
   {
     "category": "Dessert",
     "name": "Red Velvet",
     "desc": "Red velvet cake with cream cheese frosting.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/redvelvet,cake?lock=42"
   },
   {
     "category": "Dessert",
     "name": "Molten Cake",
     "desc": "Warm chocolate cake with a liquid chocolate center.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chocolate,molten,cake?lock=43"
   },
   {
     "category": "Pizza",
     "name": "Margherita Pizza",
     "desc": "Mozzarella, red sauce, basil & olives.",
     "price": 185,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/margherita,pizza?lock=44"
   },
   {
     "category": "Pizza",
     "name": "Chicken BBQ Pizza",
     "desc": "Chicken, BBQ sauce, mozzarella, red sauce & olives.",
     "price": 250,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,bbq,pizza?lock=45"
   },
   {
     "category": "Pizza",
     "name": "Sausage Pizza",
     "desc": "Sausage, mozzarella, red sauce & olives.",
     "price": 260,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/sausage,pizza?lock=46"
   },
   {
     "category": "Pizza",
     "name": "All Meat Pizza",
     "desc": "Loaded meat pizza.",
     "price": 285,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/meat,pizza?lock=47"
   },
   {
     "category": "Pizza",
     "name": "Quattro Formaggi Pizza",
     "desc": "Mozzarella, Kiri, red cheddar & yellow cheddar with sauce & olives.",
     "price": 265,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/four,cheese,pizza?lock=48"
   },
   {
     "category": "Pizza",
     "name": "Georgian Pastrami Pizza",
     "desc": "Pastrami pizza with mozzarella.",
     "price": 265,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pastrami,pizza?lock=49"
   },
   {
     "category": "Pizza",
     "name": "Veggie Pizza",
     "desc": "Zucchini, mushrooms, peppers, red sauce & olives.",
     "price": 200,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/vegetable,pizza?lock=50"
   },
   {
     "category": "Pizza",
     "name": "Andrea Pizza",
     "desc": "Salami with smoked turkey and smoked beef.",
     "price": 275,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/salami,turkey,pizza?lock=51"
   },
   {
     "category": "Pizza",
     "name": "Texas Pizza",
     "desc": "Crispy chicken pizza with cheddar sauce.",
     "price": 275,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/crispy,chicken,pizza?lock=52"
   },
   {
     "category": "Pizza",
     "name": "Chicken Salami Pizza",
     "desc": "Chicken, salami, mozzarella, red sauce & olives.",
     "price": 265,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,salami,pizza?lock=53"
   },
   {
     "category": "Pizza",
     "name": "Shrimp Pizza",
     "desc": "Shrimp, mozzarella, red sauce, arugula, capers & olives.",
     "price": 360,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/shrimp,pizza?lock=54"
   },
   {
     "category": "Pizza",
     "name": "Pepperoni Pizza",
     "desc": "Pepperoni, mozzarella, red sauce & olives.",
     "price": 250,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pepperoni,pizza?lock=55"
   },
   {
     "category": "Pizza",
     "name": "Pollo Ranch Pizza",
     "desc": "Chicken, ranch sauce, mozzarella & olives.",
     "price": 280,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chicken,ranch,pizza?lock=56"
   },
   {
     "category": "Pizza",
     "name": "Buffalo Cha Cha Pizza",
     "desc": "Chicken, sausage, mozzarella & buffalo sauce.",
     "price": 255,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/buffalo,chicken,pizza?lock=57"
   },
   {
     "category": "Pizza",
     "name": "Seafood Mix Pizza",
     "desc": "Selection of seafood over cheese with special sauce.",
     "price": 310,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/seafood,pizza?lock=58"
   },
   {
     "category": "Ricchi Signature",
     "name": "Calzone",
     "desc": "Folded pizza dough filled with mozzarella, tomato sauce and your choice of filling.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/calzone,pizza?lock=59"
   },
   {
     "category": "Refreshers",
     "name": "Banana Juice",
     "desc": "Freshly blended banana juice.",
     "price": 80,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/banana,smoothie?lock=60"
   },
   {
     "category": "Refreshers",
     "name": "Strawberry Milk Juice",
     "desc": "Strawberry cocktail with milk.",
     "price": 85,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/strawberry,milk,drink?lock=61"
   },
   {
     "category": "Refreshers",
     "name": "Mango Juice",
     "desc": "Mango, milk & sugar.",
     "price": 100,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mango,juice?lock=62"
   },
   {
     "category": "Refreshers",
     "name": "Watermelon Juice",
     "desc": "Watermelon, milk & sugar.",
     "price": 75,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/watermelon,juice?lock=63"
   },
   {
     "category": "Refreshers",
     "name": "Guava Juice",
     "desc": "Fresh guava blended into a rich juice.",
     "price": 80,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/guava,juice?lock=64"
   },
   {
     "category": "Refreshers",
     "name": "Guava Milk Juice",
     "desc": "Guava, milk & sugar.",
     "price": 85,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/guava,milk,juice?lock=65"
   },
   {
     "category": "Refreshers",
     "name": "Lemon Juice",
     "desc": "Fresh lemon with sugar & ice.",
     "price": 70,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/lemon,juice?lock=66"
   },
   {
     "category": "Refreshers",
     "name": "Lemon Mint Juice",
     "desc": "Fresh lemon & mint.",
     "price": 75,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/lemon,mint,drink?lock=67"
   },
   {
     "category": "Refreshers",
     "name": "Strawberry Juice",
     "desc": "Fresh strawberry juice.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/strawberry,juice?lock=68"
   },
   {
     "category": "Coffee / Cold Drinks",
     "name": "Oreo Cream Frappe",
     "desc": "Blended Oreo cookies and cream.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/oreo,cream,frappe?lock=69"
   },
   {
     "category": "Ice Coffee",
     "name": "Americano",
     "desc": "Espresso with hot water.",
     "price": 90,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/americano,coffee?lock=70"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Caramel Macchiato",
     "desc": "Iced espresso, milk and caramel.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,caramel,macchiato,coffee?lock=71"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Mocha",
     "desc": "Espresso, chocolate and milk over ice.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,mocha,coffee?lock=72"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice White Mocha",
     "desc": "Espresso, white chocolate and milk over ice.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,white,mocha,coffee?lock=73"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Latte",
     "desc": "Espresso, cold milk and ice.",
     "price": 100,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,latte,coffee?lock=74"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Cappuccino",
     "desc": "Espresso, milk and ice.",
     "price": 100,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,cappuccino,coffee?lock=75"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Spanish Latte",
     "desc": "Espresso, milk and sweetened condensed milk over ice.",
     "price": 120,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,spanish,latte,coffee?lock=76"
   },
   {
     "category": "Ice Coffee",
     "name": "Ice Matcha",
     "desc": "Cold matcha green tea drink.",
     "price": 110,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/iced,matcha?lock=77"
   },
   {
     "category": "Hot Chocolate",
     "name": "Classic Hot Chocolate",
     "desc": "Chocolate with warm milk.",
     "price": 115,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/hot,chocolate?lock=78"
   },
   {
     "category": "Hot Chocolate",
     "name": "Nutella",
     "desc": "Warm chocolate drink with Nutella.",
     "price": 135,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/nutella,dessert?lock=79"
   },
   {
     "category": "Ricchi Shake",
     "name": "Pistachio",
     "desc": "Creamy pistachio-flavored shake.",
     "price": 160,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pistachio,shake?lock=80"
   },
   {
     "category": "Ricchi Shake",
     "name": "Ricchi Shake",
     "desc": "Creamy blended signature beverage.",
     "price": 165,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/milkshake,dessert?lock=81"
   },
   {
     "category": "Ricchi Shake",
     "name": "Mango",
     "desc": "Fresh mango shake.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mango,shake?lock=82"
   },
   {
     "category": "Ricchi Shake",
     "name": "Strawberry",
     "desc": "Fresh strawberry shake.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/strawberry,shake?lock=83"
   },
   {
     "category": "Ricchi Shake",
     "name": "Blueberry",
     "desc": "Fresh blueberry shake.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/blueberry,shake?lock=84"
   },
   {
     "category": "Ricchi Shake",
     "name": "Caramel",
     "desc": "Caramel-flavored shake.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/caramel,shake?lock=85"
   },
   {
     "category": "Ricchi Shake",
     "name": "Lotus",
     "desc": "Lotus Biscoff shake.",
     "price": 145,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/biscoff,shake?lock=86"
   },
   {
     "category": "Ricchi Shake",
     "name": "Coffee",
     "desc": "Coffee-flavored creamy shake.",
     "price": 120,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/coffee,shake?lock=87"
   },
   {
     "category": "Coffee Frappe",
     "name": "Classic Coffee Frappe",
     "desc": "Blended coffee, milk and ice.",
     "price": 115,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/coffee,frappe?lock=88"
   },
   {
     "category": "Coffee Frappe",
     "name": "Caramel Coffee Frappe",
     "desc": "Blended coffee with caramel.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/caramel,coffee,frappe?lock=89"
   },
   {
     "category": "Coffee Frappe",
     "name": "White Mocha Frappe",
     "desc": "Blended coffee with white chocolate.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/white,mocha,frappe?lock=90"
   },
   {
     "category": "Coffee Frappe",
     "name": "Mocha",
     "desc": "Coffee, milk and chocolate.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mocha,frappe?lock=91"
   },
   {
     "category": "Cream Frappe",
     "name": "Ricchi Biscoff",
     "desc": "Biscoff cookies and Biscoff spread.",
     "price": 145,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/biscoff,cream,frappe?lock=92"
   },
   {
     "category": "Cream Frappe",
     "name": "Blueberry Cream Frappe",
     "desc": "Blueberries blended with cream.",
     "price": 120,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/blueberry,cream,frappe?lock=93"
   },
   {
     "category": "Cream Frappe",
     "name": "Caramel Cream Frappe",
     "desc": "Caramel syrup and cream.",
     "price": 130,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/caramel,cream,frappe?lock=94"
   },
   {
     "category": "Cream Frappe",
     "name": "Vanilla Cream Frappe",
     "desc": "Vanilla and cream blended cold.",
     "price": 120,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/vanilla,cream,frappe?lock=95"
   },
   {
     "category": "Cream Frappe",
     "name": "Chocolate Chips Cream Frappe",
     "desc": "Chocolate chips blended with cream.",
     "price": 135,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chocolate,cream,frappe?lock=96"
   },
   {
     "category": "Cream Frappe",
     "name": "Chocolate",
     "desc": "Rich chocolate cream frappe.",
     "price": 120,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chocolate,frappe?lock=97"
   },
   {
     "category": "Cream Frappe",
     "name": "Biscoff Cookies",
     "desc": "Biscoff cookie flavored frappe.",
     "price": 140,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/biscoff,cookies,frappe?lock=98"
   },
   {
     "category": "Cream Frappe",
     "name": "Mango Cream Frappe",
     "desc": "Mango blended with cream.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mango,cream,frappe?lock=99"
   },
   {
     "category": "Cream Frappe",
     "name": "Strawberry Cream Frappe",
     "desc": "Strawberry blended with cream.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/strawberry,cream,frappe?lock=100"
   },
   {
     "category": "Cream Frappe",
     "name": "Lotus Cream Frappe",
     "desc": "Lotus Biscoff flavor with cream.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/biscoff,cream,frappe?lock=101"
   },
   {
     "category": "Cream Frappe",
     "name": "Oreo Cream Frappe",
     "desc": "Oreo cookies blended with cream.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/oreo,cream,frappe?lock=102"
   },
   {
     "category": "Cream Frappe",
     "name": "Matcha",
     "desc": "Matcha cream frappe.",
     "price": 125,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/matcha,frappe?lock=103"
   },
   {
     "category": "Milkshake",
     "name": "Blueberry Milkshake",
     "desc": "Blueberry milkshake.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/blueberry,milkshake?lock=104"
   },
   {
     "category": "Milkshake",
     "name": "Mixberry Milkshake",
     "desc": "Mixed berries with milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mixed,berry,milkshake?lock=105"
   },
   {
     "category": "Milkshake",
     "name": "Oreo Milkshake",
     "desc": "Oreo blended with cold milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/oreo,milkshake?lock=106"
   },
   {
     "category": "Milkshake",
     "name": "Caramel Milkshake",
     "desc": "Caramel with cold milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/caramel,milkshake?lock=107"
   },
   {
     "category": "Milkshake",
     "name": "Strawberry Milkshake",
     "desc": "Strawberry blended with creamy milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/strawberry,milkshake?lock=108"
   },
   {
     "category": "Milkshake",
     "name": "Chocolate Milkshake",
     "desc": "Chocolate blended with fresh milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/chocolate,milkshake?lock=109"
   },
   {
     "category": "Milkshake",
     "name": "Vanilla Milkshake",
     "desc": "Vanilla ice cream blended with milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/vanilla,milkshake?lock=110"
   },
   {
     "category": "Milkshake",
     "name": "Coffee Milkshake",
     "desc": "Coffee flavor with iced milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/coffee,milkshake?lock=111"
   },
   {
     "category": "Milkshake",
     "name": "Pistachio Milkshake",
     "desc": "Pistachio blended with creamy milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pistachio,milkshake?lock=112"
   },
   {
     "category": "Milkshake",
     "name": "Lotus Coffee Milkshake",
     "desc": "Coffee, milk and Lotus sauce.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/coffee,biscoff,milkshake?lock=113"
   },
   {
     "category": "Milkshake",
     "name": "Lotus Milkshake",
     "desc": "Lotus sauce mixed with milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/biscoff,milkshake?lock=114"
   },
   {
     "category": "Milkshake",
     "name": "Raspberry Milkshake",
     "desc": "Raspberry flavor with cold milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/raspberry,milkshake?lock=115"
   },
   {
     "category": "Milkshake",
     "name": "Mango Milkshake",
     "desc": "Mango blended with smooth milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mango,milkshake?lock=116"
   },
   {
     "category": "Milkshake",
     "name": "Passion Fruit Milkshake",
     "desc": "Passion fruit flavor with creamy milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/passionfruit,milkshake?lock=117"
   },
   {
     "category": "Milkshake",
     "name": "Green Apple Milkshake",
     "desc": "Green apple blended with creamy milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/green,apple,drink?lock=118"
   },
   {
     "category": "Milkshake",
     "name": "Peach Milkshake",
     "desc": "Peach blended with milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/peach,milkshake?lock=119"
   },
   {
     "category": "Milkshake",
     "name": "Nutella Milkshake",
     "desc": "Nutella blended with fresh milk.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/nutella,milkshake?lock=120"
   },
   {
     "category": "Juice",
     "name": "Mango Passion Juice",
     "desc": "Mango and passion fruit tropical blend.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/mango,passionfruit,juice?lock=121"
   },
   {
     "category": "Juice",
     "name": "Pina Colada Juice",
     "desc": "Pineapple and coconut blend.",
     "price": null,
-    "img": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=900&q=85"
+    "img": "https://loremflickr.com/900/700/pina,colada,drink?lock=122"
   }
 ]
