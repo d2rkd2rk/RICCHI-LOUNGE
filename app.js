@@ -1,109 +1,37 @@
 const WA="201019926199";
+const MENU_SOURCE="https://cdn.jsdelivr.net/gh/d2rkd2rk/RICCHI-LOUNGE@5f725b8d7d8d39826aaae5471883e793c5f71cdc/menu.json";
+const IMG={
+ pasta:"https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1000&q=85",
+ pasta2:"https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=85",
+ shrimp:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=1000&q=85",
+ breakfast:"https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=85",
+ salad:"https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=85",
+ fries:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=1000&q=85",
+ burger:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85",
+ chicken:"https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=1000&q=85",
+ croissant:"https://images.unsplash.com/photo-1555507036-ab1c8c0a00000000?auto=format&fit=crop&w=1000&q=85",
+ cake:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85",
+ pizza:"https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1000&q=85",
+ coffee:"https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=85",
+ shake:"https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=1000&q=85",
+ juice:"https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1000&q=85"
+};
 let products=[],cart=[],active="All";
 const grid=document.getElementById("menuGrid"),cats=document.getElementById("cats"),search=document.getElementById("search");
-const cartEl=document.getElementById("cart"),backdrop=document.getElementById("backdrop");
-const catViewport=document.getElementById("catViewport");
-const catPrev=document.getElementById("catPrev");
-const catNext=document.getElementById("catNext");
-
+const cartEl=document.getElementById("cart"),backdrop=document.getElementById("backdrop"),catViewport=document.getElementById("catViewport"),catPrev=document.getElementById("catPrev"),catNext=document.getElementById("catNext");
 function escapeHTML(value){return String(value).replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;","\"":"&quot;"}[c]));}
 function categoryLabel(c){return c==="All"?"All":c.replace("Ricchi Signature","Signature").replace("Milkshake","Milkshakes").replace("Ricchi Shake","Ricchi Shakes");}
-
-fetch("menu.json",{cache:"no-store"})
- .then(r=>{if(!r.ok)throw new Error("Menu could not be loaded");return r.json()})
- .then(data=>{products=Array.isArray(data)?data:[];renderCats();render();updateCatArrows();})
- .catch(()=>{grid.innerHTML='<div class="menu-error">The menu could not be loaded. Please refresh the page.</div>';});
-
-function renderCats(){
- const list=["All",...new Set(products.map(x=>x.category))];
- cats.innerHTML=list.map(c=>`<button type="button" class="${c===active?"active":""}" data-category="${escapeHTML(c)}">${escapeHTML(categoryLabel(c))}</button>`).join("");
-}
-
-cats.addEventListener("click",e=>{
- const button=e.target.closest("button[data-category]");
- if(!button)return;
- active=button.dataset.category;
- renderCats();
- render();
- button.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});
- updateCatArrows();
-});
-
-function render(){
- const q=search.value.toLowerCase().trim();
- const list=products.filter(x=>(active==="All"||x.category===active)&&(!q||(x.name+" "+x.desc).toLowerCase().includes(q)));
- grid.innerHTML=list.map(x=>`
- <article class="card">
-  <div class="photo"><img loading="lazy" src="${escapeHTML(x.img||"assets/dish-placeholder.svg")}" alt="${escapeHTML(x.name)}" onerror="this.onerror=null;this.src='assets/dish-placeholder.svg';this.closest('.photo').classList.add('image-missing')"></div>
-  <div class="card-body">
-   <div class="card-top"><h3>${escapeHTML(x.name)}</h3><div class="price">${x.price==null?"On selection":"EGP "+Number(x.price).toLocaleString()}</div></div>
-   <p class="desc">${escapeHTML(x.desc)}</p>
-   <button type="button" class="add" data-add="${escapeHTML(x.name)}">Add to order +</button>
-  </div>
- </article>`).join("")||`<div class="menu-empty">No dishes found.</div>`;
-}
-
-grid.addEventListener("click",e=>{
- const button=e.target.closest("button[data-add]");
- if(button)add(button.dataset.add);
-});
+function imageFor(x,i){const n=x.name.toLowerCase(),c=x.category.toLowerCase();if(n.includes("shrimp"))return IMG.shrimp;if(n.includes("burger"))return IMG.burger;if(n.includes("croissant")||n.includes("puff pastry"))return IMG.croissant;if(n.includes("cake")||n.includes("red velvet"))return IMG.cake;if(n.includes("fries")||n.includes("nugget")||n.includes("dip"))return IMG.fries;if(n.includes("omelette")||n.includes("egg")||c.includes("breakfast"))return IMG.breakfast;if(c.includes("pasta")||n.includes("bolognese"))return i%3?IMG.pasta:IMG.pasta2;if(c.includes("salad"))return IMG.salad;if(c.includes("pizza")||c.includes("signature"))return IMG.pizza;if(c.includes("shake")||c.includes("milkshake"))return IMG.shake;if(c.includes("coffee")||c.includes("frappe")||c.includes("chocolate")||n.includes("latte")||n.includes("mocha")||n.includes("americano")||n.includes("cappuccino")||n.includes("matcha"))return IMG.coffee;if(c.includes("refresh")||c==="juice")return IMG.juice;if(c.includes("sandwich"))return n.includes("chicken")?IMG.chicken:IMG.burger;if(c.includes("kids"))return IMG.chicken;return IMG.pasta;}
+fetch(MENU_SOURCE,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error();return r.json()}).then(data=>{products=(Array.isArray(data)?data:[]).map((x,i)=>({...x,img:imageFor(x,i)}));renderCats();render();updateCatArrows();}).catch(()=>{grid.innerHTML='<div class="menu-error">The menu could not be loaded. Please refresh the page.</div>';});
+function renderCats(){const list=["All",...new Set(products.map(x=>x.category))];cats.innerHTML=list.map(c=>`<button type="button" class="${c===active?"active":""}" data-category="${escapeHTML(c)}">${escapeHTML(categoryLabel(c))}</button>`).join("");}
+cats.addEventListener("click",e=>{const button=e.target.closest("button[data-category]");if(!button)return;active=button.dataset.category;renderCats();render();button.scrollIntoView({behavior:"smooth",block:"nearest",inline:"center"});updateCatArrows();});
+function render(){const q=search.value.toLowerCase().trim();const list=products.filter(x=>(active==="All"||x.category===active)&&(!q||(x.name+" "+x.desc).toLowerCase().includes(q)));grid.innerHTML=list.map(x=>`<article class="card"><div class="photo"><img loading="lazy" src="${escapeHTML(x.img)}" alt="${escapeHTML(x.name)}"></div><div class="card-body"><div class="card-top"><h3>${escapeHTML(x.name)}</h3><div class="price">${x.price==null?"On selection":"EGP "+Number(x.price).toLocaleString()}</div></div><p class="desc">${escapeHTML(x.desc)}</p><button type="button" class="add" data-add="${escapeHTML(x.name)}">Add to order +</button></div></article>`).join("")||`<div class="menu-empty">No dishes found.</div>`;}
+grid.addEventListener("click",e=>{const button=e.target.closest("button[data-add]");if(button)add(button.dataset.add);});
 search.addEventListener("input",render);
-
-function add(name){
- const p=products.find(x=>x.name===name);
- if(!p)return;
- if(!p.price){alert("This item is priced on selection. Please contact RICCHI on WhatsApp.");return;}
- const found=cart.find(x=>x.name===name);
- found?found.qty++:cart.push({...p,qty:1});
- updateCart();openCart();
-}
-
-function updateCart(){
- document.getElementById("cartCount").textContent=cart.reduce((s,x)=>s+x.qty,0);
- const box=document.getElementById("cartItems"),empty=document.getElementById("cartEmpty");
- empty.style.display=cart.length?"none":"block";
- box.innerHTML=cart.map(x=>`<div class="cart-row"><div><b>${escapeHTML(x.name)}</b><small>EGP ${Number(x.price).toLocaleString()} × ${x.qty}</small></div><div class="qty"><button type="button" data-change="-1" data-name="${escapeHTML(x.name)}">−</button><span>${x.qty}</span><button type="button" data-change="1" data-name="${escapeHTML(x.name)}">+</button></div><button type="button" class="remove" data-remove="${escapeHTML(x.name)}">×</button></div>`).join("");
- const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
- document.getElementById("total").textContent="EGP "+total.toLocaleString();
-}
-
-document.getElementById("cartItems").addEventListener("click",e=>{
- const change=e.target.closest("button[data-change]");
- const remove=e.target.closest("button[data-remove]");
- if(change)changeQty(change.dataset.name,Number(change.dataset.change));
- if(remove)removeItem(remove.dataset.remove);
-});
-function changeQty(n,d){const x=cart.find(x=>x.name===n);if(!x)return;x.qty+=d;if(x.qty<=0)cart=cart.filter(y=>y.name!==n);updateCart();}
-function removeItem(n){cart=cart.filter(x=>x.name!==n);updateCart();}
-function openCart(){cartEl.classList.add("open");backdrop.classList.add("show");document.body.classList.add("cart-open");}
-function closeCart(){cartEl.classList.remove("open");backdrop.classList.remove("show");document.body.classList.remove("cart-open");}
-document.getElementById("openCart").onclick=openCart;
-document.getElementById("closeCart").onclick=closeCart;
-backdrop.onclick=closeCart;
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeCart();});
-
-document.getElementById("sendWhatsApp").onclick=()=>{
- if(!cart.length){alert("Please add at least one item.");return;}
- const name=document.getElementById("customerName").value.trim();
- if(!name){alert("Please enter your name first.");document.getElementById("customerName").focus();return;}
- const notes=document.getElementById("notes").value.trim();
- const total=cart.reduce((s,x)=>s+x.price*x.qty,0);
- const lines=cart.map(x=>`• ${x.name} — ${x.qty} × EGP ${x.price} = EGP ${x.price*x.qty}`).join("\n");
- const msg=`*New RICCHI LOUNGE Order*\n\n*Customer:* ${name}\n\n${lines}\n\n*Items:* ${cart.reduce((s,x)=>s+x.qty,0)}\n*Total:* EGP ${total.toLocaleString()}${notes?`\n*Notes:* ${notes}`:""}`;
- window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,"_blank");
-};
-
-function updateCatArrows(){
- if(!catViewport||!catPrev||!catNext)return;
- const max=catViewport.scrollWidth-catViewport.clientWidth;
- const has= max>4;
- catViewport.classList.toggle("has-overflow",has);
- catPrev.disabled=!has||catViewport.scrollLeft<4;
- catNext.disabled=!has||catViewport.scrollLeft>max-4;
-}
-function scrollCats(amount){catViewport.scrollBy({left:amount,behavior:"smooth"});setTimeout(updateCatArrows,300);}
-catPrev.onclick=()=>scrollCats(-260);
-catNext.onclick=()=>scrollCats(260);
-catViewport.addEventListener("scroll",updateCatArrows,{passive:true});
-window.addEventListener("resize",updateCatArrows);
-updateCart();
+function add(name){const p=products.find(x=>x.name===name);if(!p)return;if(!p.price){alert("This item is priced on selection. Please contact RICCHI on WhatsApp.");return;}const found=cart.find(x=>x.name===name);found?found.qty++:cart.push({...p,qty:1});updateCart();openCart();}
+function updateCart(){document.getElementById("cartCount").textContent=cart.reduce((s,x)=>s+x.qty,0);const box=document.getElementById("cartItems"),empty=document.getElementById("cartEmpty");empty.style.display=cart.length?"none":"block";box.innerHTML=cart.map(x=>`<div class="cart-row"><div><b>${escapeHTML(x.name)}</b><small>EGP ${Number(x.price).toLocaleString()} × ${x.qty}</small></div><div class="qty"><button type="button" data-change="-1" data-name="${escapeHTML(x.name)}">−</button><span>${x.qty}</span><button type="button" data-change="1" data-name="${escapeHTML(x.name)}">+</button></div><button type="button" class="remove" data-remove="${escapeHTML(x.name)}">×</button></div>`).join("");const total=cart.reduce((s,x)=>s+x.price*x.qty,0);document.getElementById("total").textContent="EGP "+total.toLocaleString();}
+document.getElementById("cartItems").addEventListener("click",e=>{const change=e.target.closest("button[data-change]"),remove=e.target.closest("button[data-remove]");if(change)changeQty(change.dataset.name,Number(change.dataset.change));if(remove)removeItem(remove.dataset.remove);});
+function changeQty(n,d){const x=cart.find(x=>x.name===n);if(!x)return;x.qty+=d;if(x.qty<=0)cart=cart.filter(y=>y.name!==n);updateCart();}function removeItem(n){cart=cart.filter(x=>x.name!==n);updateCart();}function openCart(){cartEl.classList.add("open");backdrop.classList.add("show");document.body.classList.add("cart-open");}function closeCart(){cartEl.classList.remove("open");backdrop.classList.remove("show");document.body.classList.remove("cart-open");}
+document.getElementById("openCart").onclick=openCart;document.getElementById("closeCart").onclick=closeCart;backdrop.onclick=closeCart;document.addEventListener("keydown",e=>{if(e.key==="Escape")closeCart();});
+document.getElementById("sendWhatsApp").onclick=()=>{if(!cart.length){alert("Please add at least one item.");return;}const name=document.getElementById("customerName").value.trim();if(!name){alert("Please enter your name first.");document.getElementById("customerName").focus();return;}const notes=document.getElementById("notes").value.trim(),total=cart.reduce((s,x)=>s+x.price*x.qty,0),lines=cart.map(x=>`• ${x.name} — ${x.qty} × EGP ${x.price} = EGP ${x.price*x.qty}`).join("\n"),msg=`*New RICCHI LOUNGE Order*\n\n*Customer:* ${name}\n\n${lines}\n\n*Items:* ${cart.reduce((s,x)=>s+x.qty,0)}\n*Total:* EGP ${total.toLocaleString()}${notes?`\n*Notes:* ${notes}`:""}`;window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,"_blank");};
+function updateCatArrows(){if(!catViewport||!catPrev||!catNext)return;const max=catViewport.scrollWidth-catViewport.clientWidth,has=max>4;catPrev.disabled=!has||catViewport.scrollLeft<4;catNext.disabled=!has||catViewport.scrollLeft>max-4;}function scrollCats(amount){catViewport.scrollBy({left:amount,behavior:"smooth"});setTimeout(updateCatArrows,300);}catPrev.onclick=()=>scrollCats(-260);catNext.onclick=()=>scrollCats(260);catViewport.addEventListener("scroll",updateCatArrows,{passive:true});window.addEventListener("resize",updateCatArrows);updateCart();
