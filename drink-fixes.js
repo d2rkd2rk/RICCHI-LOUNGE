@@ -1,39 +1,94 @@
 const D=u=>`https://images.unsplash.com/photo-${u}?auto=format&fit=crop&w=1000&q=85`;
-const DRINK_IMAGES={
-  coffee:D("1514432324607-a09d9b4aefdd"),
-  icedCoffee:D("1517701604599-bb29b565090c"),
-  mocha:D("1461023058943-07fcbe16d735"),
-  matcha:D("1515823064-d6e0c2c5f5e3"),
-  hotChocolate:D("1542990253-0b0a5b7a8a5a"),
-  milkshake:D("1572490122747-3968b75cc699"),
-  biscoff:D("1587314168485-3236d6710814"),
-  caramel:D("1499636136210-6f4ee915583e"),
-  fruitShake:D("1553530666-ba11a7da3888"),
-  orange:D("1600271886742-f049cd451bba"),
-  lemonade:D("1583064313642-a7c149480c7e")
+
+// Exact product -> Unsplash photo mapping. No category fallback is used for drinks.
+const DRINKS={
+  "Americano":D("1674766326040-c468906374f1"),
+  "Ice Caramel Macchiato":D("1741321728571-e62467b671de"),
+  "Ice Mocha":D("1461023058943-07fcbe16d735"),
+  "Ice White Mocha":D("1512568400610-62da28bc8a13"),
+  "Ice Latte":D("1517701604599-bb29b565090c"),
+  "Ice Cappuccino":D("1698309626286-cfe29d8218a7"),
+  "Ice Spanish Latte":D("1512568400610-62da28bc8a13"),
+  "Ice Matcha":D("1560148196-df61132466ce"),
+
+  "Classic Hot Chocolate":D("1542990253-0b0a5b7a8a5a"),
+  "Nuttela":D("1542990253-0b0a5b7a8a5a"),
+
+  "Pistachio":D("1572490122747-3968b75cc699"),
+  "Ricchi Shake":D("1572490122747-3968b75cc699"),
+  "Mango":D("1716441392930-b4daa288266a"),
+  "Strawberry":D("1734747638453-dd5c0766add2"),
+  "Blueberry":D("1588929473475-d16ffd5d068c"),
+  "Caramel":D("1499636136210-6f4ee915583e"),
+  "Lotus":D("1587314168485-3236d6710814"),
+  "Coffee":D("1669872484166-e11b9638b50e"),
+
+  "Classic Coffee Frappe":D("1461023058943-07fcbe16d735"),
+  "Caramel Coffee Frappe":D("1499636136210-6f4ee915583e"),
+  "White Mocha Frappe":D("1512568400610-62da28bc8a13"),
+  "Mocha":D("1461023058943-07fcbe16d735"),
+
+  "Ricchi Biscoff":D("1587314168485-3236d6710814"),
+  "Blueberry Cream Frappe":D("1588929473475-d16ffd5d068c"),
+  "Caramel Cream Frappe":D("1499636136210-6f4ee915583e"),
+  "Vanillia Cream Frappe":D("1579954115545-36c48a0b5a09"),
+  "Chocolate Chips Cream Frappe":D("1693857226065-3b3f482ecad0"),
+  "Chocolate":D("1693857226065-3b3f482ecad0"),
+  "Biscoff Cookies":D("1587314168485-3236d6710814"),
+  "Mango Cream Frappe":D("1716441392930-b4daa288266a"),
+  "Strawberry Cream Frappe":D("1734747638453-dd5c0766add2"),
+  "Lotus Cream Frappe":D("1587314168485-3236d6710814"),
+  "Oreo Cream Frappe":D("1619158401201-8fa932695178"),
+  "Matcha":D("1560148196-df61132466ce"),
+
+  "Banana Juice":D("1528825871115-3581a2c7c9d6"),
+  "Strawberry Milk Juice":D("1565188003931-64e0c5af81b8"),
+  "Mango Juice":D("1716441392930-b4daa288266a"),
+  "Watermelon Juice":D("1721363005841-3831c567788d"),
+  "Guava Juice":D("1490324028530-3df5a9af0637"),
+  "Guava Milk Juice":D("1490324028530-3df5a9af0637"),
+  "Lemon Juice":D("1673968873206-ceb16421a803"),
+  "Lemon Mint Juice":D("1775264175004-604006f6c8b0"),
+  "Strawberry Juice":D("1565188003931-64e0c5af81b8"),
+  "Orange Juice":D("1600271886742-f049cd451bba"),
+
+  "Blueberry Milkshake":D("1588929473475-d16ffd5d068c"),
+  "Mixberry Milkshake":D("1588929473475-d16ffd5d068c"),
+  "Oreo Milkshake":D("1619158401201-8fa932695178"),
+  "Caramel Milkshake":D("1499636136210-6f4ee915583e"),
+  "Strawberry Milkshake":D("1734747638453-dd5c0766add2"),
+  "Chocolate Milkshake":D("1693857226065-3b3f482ecad0"),
+  "Vanilla Milkshake":D("1548849956-8aa872cefb93"),
+  "Coffee Milkshake":D("1669872484166-e11b9638b50e"),
+  "Pistachio Milkshake":D("1572490122747-3968b75cc699"),
+  "Lotus Coffee Milkshake":D("1587314168485-3236d6710814"),
+  "Lotus Milkshake":D("1587314168485-3236d6710814"),
+  "Raspberry Milkshake":D("1734747638453-dd5c0766add2"),
+  "Mango Milkshake":D("1716441392930-b4daa288266a"),
+  "Passion Fruit Milkshake":D("1754594537133-796eb54f206c"),
+  "Green Apple Milkshake":D("1550258987-190a2d41e8ba"),
+  "Peach Milkshake":D("1560807707-8cc77767d783"),
+  "Nutella Milkshake":D("1693857226065-3b3f482ecad0")
 };
-const names=["Americano","Ice Caramel Macchiato","Ice Mocha","Ice White Mocha","Ice Latte","Ice Cappuccino","Ice Spanish Latte","Ice Matcha","Classic Hot Chocolate","Nuttela","Pistachio","Ricchi Shake","Mango","Strawberry","Blueberry","Caramel","Lotus","Coffee","Classic Coffee Frappe","Caramel Coffee Frappe","White Mocha Frappe","Mocha","Ricchi Biscoff","Blueberry Cream Frappe","Caramel Cream Frappe","Vanillia Cream Frappe","Chocolate Chips Cream Frappe","Chocolate","Biscoff Cookies","Mango Cream Frappe","Strawberry Cream Frappe","Lotus Cream Frappe","Oreo Cream Frappe","Matcha","Banana Juice","Strawberry Milk Juice","Mango Juice","Watermelon Juice","Guava Juice","Guava Milk Juice","Lemon Juice","Lemon Mint Juice","Strawberry Juice","Orange Juice","Blueberry Milkshake","Mixberry Milkshake","Oreo Milkshake","Caramel Milkshake","Strawberry Milkshake","Chocolate Milkshake","Vanilla Milkshake","Coffee Milkshake","Pistachio Milkshake","Lotus Coffee Milkshake","Lotus Milkshake","Raspberry Milkshake","Mango Milkshake","Passion Fruit Milkshake","Green Apple Milkshake","Peach Milkshake","Nutella Milkshake"];
-const byName={};names.forEach(n=>byName[n]=n);
-function drinkImage(name){
- const n=name.toLowerCase();
- if(n.includes("matcha")) return DRINK_IMAGES.matcha;
- if(n.includes("hot chocolate")) return DRINK_IMAGES.hotChocolate;
- if(n.includes("iced")||n.includes("ice ")) return n.includes("matcha")?DRINK_IMAGES.matcha:DRINK_IMAGES.icedCoffee;
- if(n.includes("mocha")||n.includes("frappe")&&n.includes("coffee")) return DRINK_IMAGES.mocha;
- if(n.includes("biscoff")||n.includes("lotus")) return DRINK_IMAGES.biscoff;
- if(n.includes("caramel")) return DRINK_IMAGES.caramel;
- if(n.includes("milkshake")||n.includes("shake")) return DRINK_IMAGES.milkshake;
- if(n.includes("juice")) return n.includes("orange")?DRINK_IMAGES.orange:n.includes("lemon")?DRINK_IMAGES.lemonade:DRINK_IMAGES.fruitShake;
- if(n.includes("frappe")) return DRINK_IMAGES.milkshake;
- return DRINK_IMAGES.coffee;
-}
+
 function fixDrinks(){
- document.querySelectorAll("#menuGrid img[alt]").forEach(img=>{
-   const name=img.alt.trim();
-   if(!byName[name]) return;
-   const next=drinkImage(name);
-   if(img.src!==next){img.onerror=null;img.src=next;}
- });
+  document.querySelectorAll("#menuGrid img[alt]").forEach(img=>{
+    const name=img.alt.trim();
+    const next=DRINKS[name];
+    if(!next) return;
+    if(img.dataset.ricchiDrinkImage!==next){
+      img.onerror=null;
+      img.src=next;
+      img.dataset.ricchiDrinkImage=next;
+    }
+  });
 }
-new MutationObserver(fixDrinks).observe(document.getElementById("menuGrid")||document.documentElement,{subtree:true,childList:true,attributes:true,attributeFilter:["src","alt"]});
-window.addEventListener("load",()=>{fixDrinks();setTimeout(fixDrinks,100);setTimeout(fixDrinks,500);setTimeout(fixDrinks,1500);});
+
+function startDrinkFix(){
+  fixDrinks();
+  const grid=document.getElementById("menuGrid")||document.documentElement;
+  new MutationObserver(fixDrinks).observe(grid,{subtree:true,childList:true,attributes:true,attributeFilter:["src","alt"]});
+  [100,400,1000,2000].forEach(ms=>setTimeout(fixDrinks,ms));
+}
+if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",startDrinkFix);
+else startDrinkFix();
